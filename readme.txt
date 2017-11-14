@@ -1,0 +1,12 @@
+-->This directory contains
+		--->main.c ----- It contains main()  	
+		--->built_in.c ------- It contains function for executing all built_in commands
+                --->exec_rem.c ------- It contains functions for executioning commands
+                --->prompt.c ------It contains the prompt related.
+                --->separate.c 
+                --->var_env.c ------for setenv and unsetenv
+-->It contains file test.h in which all libraries are included and all functions are defined.
+   We need to include this as #include "test.h" in all modules
+--> For executing run make
+--> It creates shell file 
+--> For executing we need to run ./shell	
